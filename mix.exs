@@ -10,7 +10,7 @@ defmodule Tirexs.Mixfile do
   end
 
   defp deps do
-    [ {:exjsx, "~> 3.2.0"} ]
+    [ {:exjsx, git: "git@github.com:talentdeficit/exjsx.git", tag: "3.2.0"} ]
   end
 
   defp description do
